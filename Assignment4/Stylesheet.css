@@ -1,0 +1,47 @@
+input[type=text], select {
+  width: 100%;
+  padding: 12px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 8px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=reset]
+{
+  width: 40%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 3px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+div.row-rap {
+    width: 100%;
+}
+div.row-rap .right, div.row-rap .left, div.row-rap .box {
+    width: 50%;
+    float: left;
+}
+
+textarea{
+	float:left
+}
+
+:required {
+  background: yellow;
+}
